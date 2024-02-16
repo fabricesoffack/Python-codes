@@ -1,9 +1,7 @@
-number1 = input("your body weight in pound is: ")
-number2 = "0.453592"  # 1 lbs = 0.453592
+weight_in_pound = float(input("your body weight in pound is: "))
 
-number1 = float(number1)
-number2 = float(number2)
+# 1 lbs = 0.453592
 
-sum = number1 * number2 
+weight_in_kg = float(weight_in_pound) * 0.453592
 
-print(f"and the equivalent in kgs is: {sum:.3f}kg. Thank you!")
+print(f"The equivalent in kgs is: {weight_in_kg:.3f}kg. Thank you!")

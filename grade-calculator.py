@@ -13,13 +13,13 @@ if average_grade >= 0 and average_grade <= 100:
         print( f"your average grade is {average_grade}, you passed with an A")
 
     elif average_grade >= 80:
-        print( f"your average grade is {average_grade}, you passed with an B")
+        print( f"your average grade is {average_grade}, you passed with a B")
 
     elif average_grade >= 70:
-        print( f"your average grade is {average_grade}, you passed with an C")
+        print( f"your average grade is {average_grade}, you passed with a C")
 
     elif average_grade >= 60:
-        print( f"your average grade is {average_grade}, you passed with an D")    
+        print( f"your average grade is {average_grade}, you passed with a D")    
    
     else:
         print(f"your average grade is {average_grade}, you failed")

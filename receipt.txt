@@ -1,0 +1,7 @@
+tomato:30
+thyne:4.5
+garlic:7.5
+onions:4
+fish:9.99
+
+total = 55.99
